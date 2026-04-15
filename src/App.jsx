@@ -29,7 +29,7 @@ const PRODUCTS = [
   },
 ]
 
-const WHATSAPP_NUMBER = '94767184785'
+const WHATSAPP_NUMBER = '94706002099'
 
 const sanitizeProductName = (productName) =>
   String(productName).replace(/[^\w\s-]/g, '').trim()
