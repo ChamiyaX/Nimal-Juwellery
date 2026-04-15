@@ -36,7 +36,7 @@ const sanitizeProductName = (productName) =>
 
 const createWhatsAppLink = (productName) => {
   const safeName = sanitizeProductName(productName)
-  const message = `Hello Nimal Jewellers, I am interested in ${safeName}`
+  const message = `Hello Rupil Jewellery, I am interested in ${safeName}`
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`
 }
 
@@ -45,7 +45,7 @@ function ProductCard({ product }) {
     <article className="group overflow-hidden rounded-2xl border border-luxe-gold/20 bg-[#111111] shadow-luxe transition duration-300 hover:-translate-y-1 hover:border-luxe-gold/60">
       <img
         src={product.image}
-        alt={`${product.name} by Nimal Jewellers`}
+        alt={`${product.name} by Rupil Jewellery`}
         className="h-64 w-full object-cover transition duration-700 group-hover:scale-105"
         loading="lazy"
       />
@@ -77,7 +77,7 @@ function App() {
       <header className="sticky top-0 z-30 border-b border-luxe-gold/10 bg-luxe-black/95 backdrop-blur">
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4 md:px-8">
           <a href="#hero" className="font-display text-3xl text-luxe-gold">
-            Nimal Jewellers
+            Rupil Jewellery
           </a>
           <a
             href="#products"
@@ -105,7 +105,7 @@ function App() {
               Fine Jewellery House
             </p>
             <h1 className="max-w-3xl font-display text-5xl leading-[1] text-luxe-ivory md:text-7xl">
-              Nimal Jewellers
+              Rupil Jewellery
             </h1>
             <p className="mt-5 max-w-xl text-base text-luxe-gray md:text-lg">
               Timeless Elegance, Crafted for You
@@ -138,10 +138,10 @@ function App() {
         <section id="about" className="fade-up border-y border-luxe-gold/10 bg-gold-gradient">
           <div className="mx-auto max-w-4xl px-5 py-20 text-center md:px-8">
             <h2 className="font-display text-4xl text-luxe-ivory md:text-5xl">
-              About Nimal Jewellers
+              About Rupil Jewellery
             </h2>
             <p className="mx-auto mt-6 max-w-3xl text-base leading-relaxed text-luxe-gray md:text-lg">
-              Nimal Jewellers offers beautifully crafted jewellery pieces designed
+              Rupil Jewellery offers beautifully crafted jewellery pieces designed
               to match your style and elegance. We bring you high-quality designs
               perfect for every occasion.
             </p>
@@ -165,14 +165,14 @@ function App() {
                 chamidu.rk@gmail.com
               </a>
             </p>
-            <p className="text-luxe-gray">Address: Kurunagala rd, Pannala</p>
+            <p className="text-luxe-gray">Address: Nattandiya Sri Lanka</p>
           </div>
         </section>
       </main>
 
       <footer className="border-t border-luxe-gold/10 bg-[#090909]">
         <div className="mx-auto flex max-w-6xl flex-col gap-5 px-5 py-10 text-center md:px-8">
-          <p className="font-display text-3xl text-luxe-gold">Nimal Jewellers</p>
+          <p className="font-display text-3xl text-luxe-gold">Rupil Jewellery</p>
           <div className="flex items-center justify-center gap-5 text-sm text-luxe-gray">
             <a href="#0" aria-label="Instagram" className="hover:text-luxe-gold">
               Instagram
@@ -185,7 +185,7 @@ function App() {
             </a>
           </div>
           <p className="text-xs uppercase tracking-[0.12em] text-luxe-gray">
-            Copyright {new Date().getFullYear()} Nimal Jewellers. All rights
+            Copyright {new Date().getFullYear()} Rupil Jewellery. All rights
             reserved.
           </p>
           <p className="text-xs text-luxe-gray">
@@ -207,7 +207,7 @@ function App() {
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-40 inline-flex items-center gap-2 rounded-full bg-[#25D366] px-5 py-3 text-sm font-semibold text-black shadow-luxe transition hover:scale-105"
-        aria-label="Chat with Nimal Jewellers on WhatsApp"
+        aria-label="Chat with Rupil Jewellery on WhatsApp"
       >
         <span className="text-base">WhatsApp</span>
       </a>
