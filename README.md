@@ -1,16 +1,48 @@
-# React + Vite
+# Nimal Jewellers
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Marketing website for Nimal Jewellers with WhatsApp product enquiry.
 
-Currently, two official plugins are available:
+A React + Vite landing page: hero, collection grid, about, and contact. Ordering is handled through WhatsApp, not a shopping cart. Netlify config is included.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Overview
 
-## React Compiler
+This is a client-facing jewellery site. The `package.json` name still says `rupil-jewellery` because the project was adapted from that storefront — the UI copy is Nimal Jewellers.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- Collection grid with WhatsApp enquiry buttons
+- Contact details and floating WhatsApp CTA
+- Tailwind styling and sticky header
+- `netlify.toml` for static hosting
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- React 19
+- Vite
+- Tailwind CSS
+- Netlify
+
+## Getting Started
+
+```bash
+git clone https://github.com/ChamiyaX/Nimal-Juwellery.git
+cd Nimal-Juwellery
+npm install
+npm run dev
+```
+
+## Notes
+
+- Repository name uses the spelling `Juwellery`; a rename to `nimal-jewellers` would match the brand (do not rename until you are ready to update links).
+- Product images are Unsplash placeholders.
+- No GitHub homepage / live URL is set.
+
+## Future Improvements
+
+- Fix `package.json` name to `nimal-jewellers`
+- Replace placeholder catalogue images
+- Publish a live demo URL
+
+## License
+
+All rights reserved for the client. Needs verification — no license file is present.
